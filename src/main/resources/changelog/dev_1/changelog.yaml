@@ -1,0 +1,12 @@
+databaseChangeLog:
+  - changeSet:
+      id: dev_1
+      author: Makeenko
+  - include:
+      file: classpath:changelog/dev_1/DDL/001_create_table_users2.sql
+  - include:
+      file: classpath:changelog/dev_1/DDL/002_create_table_tasks2.sql
+  - include:
+      file: classpath:changelog/dev_1/DML/001_insert_data_users2.sql
+  - include:
+      file: classpath:changelog/dev_1/DML/002_insert_data_tasks2.sql
