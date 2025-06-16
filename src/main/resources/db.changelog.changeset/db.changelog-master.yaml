@@ -1,0 +1,3 @@
+databaseChangeLog:
+  - include:
+      file: classpath:db/changelog/changeset/dev_1/changelog.yaml
